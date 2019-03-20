@@ -17,6 +17,7 @@ The freedom to sell the software for any price.
 Question 3
 -----------------
 In R the following are all atomic data types EXCEPT: (Select all that apply)
+
 Answer:
 
 Matrix
@@ -24,6 +25,7 @@ Matrix
 Question 4
 ---------------
 If I execute the expression x <- 4L in R, what is the class of the object `x' as determined by the `class()' function?
+
 Answer:
 
 Integar
@@ -31,6 +33,7 @@ Integar
 Question 5
 -------------
 What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
+
 Answer:
 
 Numeric
