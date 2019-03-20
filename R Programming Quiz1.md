@@ -192,6 +192,31 @@ What is the mean of "Temp" when "Month" is equal to 6?
 
 Answer:
 
+79.1
+
+quiz_data = read.csv('hw1_data.csv')
+
+sub = subset(hw1, Month == 6, select = Temp)
+
+apply(sub, 2, mean)
+
+Question 20
+------------
+Question 20
+What was the maximum ozone value in the month of May (i.e. Month is equal to 5)?
+
+Answer:
+
+115
+
+Explaination
+
+quiz_data = read.csv('hw1_data.csv')
+
+sub = subset(quiz_data, Month == 5 & !is.na(Ozone), select = Ozone)
+
+apply(sub, 2, max)
+
 
 
 
