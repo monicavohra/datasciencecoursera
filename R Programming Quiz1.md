@@ -47,3 +47,39 @@ Answer:
 1 3 5
 3 2 10
 A matrix with 2 rows and 3 columns
+
+Question 7
+----------
+A key property of vectors in R is that
+
+Answer:
+
+Elements of vector has same class.
+
+Question 8
+-------------
+
+Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[2]] give me? Select all that apply.
+
+Answer:
+A character vector containing letter"a".
+
+Question 9
+----------
+Suppose I have a vector x <- 1:4 and a vector y <- 2. What is produced by the expression x + y?
+
+Answer:
+
+A numeric vector with elements 3, 2,3, 4
+
+Question 10
+------------
+
+Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
+
+Answer:
+
+x[x>10]==4
+
+Question 11
+----------------
