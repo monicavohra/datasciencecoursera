@@ -173,10 +173,29 @@ apply(sub, 2, mean)
 Question 18
 -------------
 
-Question 18
 Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
 
 Answer:
+
+212.8
+
+quiz_data = read.csv('hw1_data.csv')
+
+sub = subset(quiz_data, Ozone > 31 & Temp > 90, select = Solar.R)
+
+apply(sub, 2, mean)
+
+Question 19
+------------
+
+What is the mean of "Temp" when "Month" is equal to 6?
+
+Answer:
+
+
+
+
+
 
 
 
