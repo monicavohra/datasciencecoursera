@@ -14,13 +14,23 @@ Answer:
 
 The freedom to sell the software for any price.
 
+The freedom to restrict access of source code for software
+
+The freedom to redistribute copies so htat you can help your neighbour.
+
 Question 3
 -----------------
 In R the following are all atomic data types EXCEPT: (Select all that apply)
 
 Answer:
 
-Matrix
+List
+
+Array
+
+Data fram
+
+table
 
 Question 4
 ---------------
@@ -36,7 +46,7 @@ What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
 
 Answer:
 
-Numeric
+logical
 
 Question 6
 ------------------
@@ -65,13 +75,15 @@ Answer:
 
 A character vector containing letter"a".
 
+A character vector of lenght 1
+
 Question 9
 ----------
 Suppose I have a vector x <- 1:4 and a vector y <- 2. What is produced by the expression x + y?
 
 Answer:
 
-A numeric vector with elements 3, 2,3, 4
+A integar vector with elements 3, 2,3, 4
 
 Question 10
 ------------
@@ -80,7 +92,8 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 
 Answer:
 
-x[x>10]==4
+x[x>10]<-4
+x[x>=11]<-4
 
 Question 11
 ----------------
@@ -140,7 +153,7 @@ Answer:
 
 21
 
-quiz_data(47, Ozone)
+hw1_data(47, Ozone)
 
 Question16
 -------------
