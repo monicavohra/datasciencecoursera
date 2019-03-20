@@ -153,7 +153,9 @@ Answer:
 
 # Going back to data.frame because dont it hasnt been taught yet in this specialization
 hw1 = read.csv('hw1_data.csv')
+
 sub = subset(quiz_data, is.na(Ozone))
+
 nrow(sub)
 
 Question17
