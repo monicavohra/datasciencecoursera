@@ -103,6 +103,9 @@ Answer:
 41	190	7.4	67	5	1
 36	118	8  	72	5	2
 
+ First two rows 
+quiz_data[c(1,2)]
+
 Question 13
 ------------
 
@@ -111,6 +114,8 @@ How many observations (i.e. rows) are in this data frame?
 Answer:
 
 153
+
+nrows(quiz_data)
 
 Question 14
 ------------
@@ -124,6 +129,8 @@ Answer:
 152    18     131  8.0   76     9  29
 153    20     223 11.5   68     9  30
 
+ tail(quiz_data, 2)
+
 Question 15
 ------------
 
@@ -132,6 +139,8 @@ What is the value of Ozone in the 47th row?
 Answer:
 
 21
+
+quiz_data(47, Ozone)
 
 Question16
 -------------
@@ -142,12 +151,31 @@ Answer:
 
 37
 
+# Going back to data.frame because dont it hasnt been taught yet in this specialization
+hw1 = read.csv('hw1_data.csv')
+sub = subset(quiz_data, is.na(Ozone))
+nrow(sub)
+
 Question17
 -----------
 
 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
 
 Answer:
+42.1
+
+hw1 = read.csv('hw1_data.csv')
+sub = subset(hw1, !is.na(Ozone), select = Ozone)
+apply(sub, 2, mean) 
+
+Question 18
+-------------
+
+Question 18
+Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
+
+Answer:
+
 
 
 
