@@ -110,6 +110,47 @@ How many observations (i.e. rows) are in this data frame?
 
 Answer:
 
+153
+
+Question 14
+------------
+
+Question 14
+Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
+
+Answer:
+
+    Ozone Solar.R Wind Temp Month Day
+152    18     131  8.0   76     9  29
+153    20     223 11.5   68     9  30
+
+Question 15
+------------
+
+What is the value of Ozone in the 47th row?
+
+Answer:
+
+21
+
+Question16
+-------------
+
+How many missing values are in the Ozone column of this data frame?
+
+Answer:
+
+37
+
+Question17
+-----------
+
+What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
+
+Answer:
+
+
+
 
 
 
