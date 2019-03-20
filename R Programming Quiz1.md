@@ -62,6 +62,7 @@ Question 8
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[2]] give me? Select all that apply.
 
 Answer:
+
 A character vector containing letter"a".
 
 Question 9
@@ -83,3 +84,32 @@ x[x>10]==4
 
 Question 11
 ----------------
+
+Use the Week 1 Quiz Data Set to answer questions 11-20.
+
+In the dataset provided for this Quiz, what are the column names of the dataset?
+
+Answer:
+
+Ozone, Solor R., Wind, Temp, Month , day
+
+Question 12
+--------------
+
+Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
+
+Answer:
+
+41	190	7.4	67	5	1
+36	118	8  	72	5	2
+
+Question 13
+------------
+
+How many observations (i.e. rows) are in this data frame?
+
+Answer:
+
+
+
+
